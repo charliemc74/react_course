@@ -6,6 +6,7 @@ using Persistence;
 
 namespace API.Controllers;
 
+//Uses Base Controller
 public class ActivitiesController : BaseAPIController
 {
     private readonly ApplicationDbContext _dbContext;
